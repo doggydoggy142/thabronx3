@@ -1,6 +1,7 @@
+print('Your thabronx3 auto farm script has been executed.')
 getgenv().cfg = {
-    ["switch_servers_when_no_wood"] = false, -- change to false to autofarm in 1 server MUST HAVE SCRIPT IN AUTOEXEC TO WORK
-    ["serverhop_timeout"] = 99999999 -- after this amount of seconds u will serverhop, change to 999999 to make it never serverhop
+    ["switch_servers_when_no_wood"] = true, -- change to false to autofarm in 1 server MUST HAVE SCRIPT IN AUTOEXEC TO WORK
+    ["serverhop_timeout"] = 80 -- after this amount of seconds u will serverhop, change to 999999 to make it never serverhop
 }
 
 pcall(function()
